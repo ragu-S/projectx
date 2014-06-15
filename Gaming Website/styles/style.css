@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial;
+	font-size: 12px;
+	margin: 0;
+	color: #444;
+	background-color: #252525;
+}
+
+h1 { font-size:2.5em; margin: 0.5em 0.5em 1.0em 0.5em; font-weight:normal; }
+li { margin: 0;}
+
+.page { font-size: 1em; position: relative; margin: 0px auto 0px auto; max-width: 1000px;}
+.page .page_content { background-color: #fff; padding: 1px 0px 1px 0px}
+.page header {
+	display: block;
+	position: relative;
+	height: 100px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color:#018fd8;
+}
+
+header .logo {
+	position: absolute;
+	left: 15px;
+	display: block;
+	width: 180px;
+	height: 105px;
+	font-size: 3em;
+	font-weight: 900;
+	font-color: #ccc;
+}
+
+.page footer{
+	display: block;
+	position: relative;
+	height: 100px;
+	-webkit-border-bottom-left-radius: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-moz-border-radius-bottomright: 10px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color:#fff;
+	box-shadow: 0px 5px 3px rgba(0,0,0,0.3);
+	background: -moz-linear-gradient(top, #ffffff 60%, #cccccc 90%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(60%,#ffffff), color-stop(90%,#cccccc));
+}
+
+.content_sidebar { background-color: #CBCBCB; margin: 10px 20px 10px 0px; padding: 10px 0 10px 0px;}
+.content_sidebar a { color: #cc14a1; font-size: 1.3em; }
+
+.page .page_content .page_container_left { width:70%; float:left; margin: 0; padding:0; }
+.page .page_content .page_container_right { width:30%; float:right; margin: 0; padding:0; }
+
+.clear { clear:both; }
